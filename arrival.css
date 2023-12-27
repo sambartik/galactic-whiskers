@@ -1,0 +1,30 @@
+article h1 {
+  text-decoration: underline;
+}
+
+article p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', serif;
+    color: #E65C00;
+    line-height: 1;
+    padding-right: 4px;
+}
+
+#not-so-hidden-message {
+  margin-top: 5em;
+}
+
+#not-so-hidden-message p {
+  border: dashed 5px greenyellow;
+  padding: 2em;
+  margin: 0;
+}
+
+#not-so-hidden-message img {
+  display: block;
+  margin-top: 1em;
+  width: 100%;
+  max-width: 25em;
+  min-width: 10em;
+  margin-left: auto;
+}

@@ -1,0 +1,7 @@
+main section {
+  margin-top: 3em;
+}
+
+main section:nth-child(even) h2 {
+  text-align: center;
+}
