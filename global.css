@@ -22,11 +22,7 @@ body::before {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   color: #E65C00;
 }
 
@@ -40,7 +36,7 @@ header {
 }
 
 header #logo {
-  width: 200px;
+  width: 12.5em;
   border-radius: 50%;
   align-self: center;
 }
@@ -64,8 +60,8 @@ header nav ul {
   justify-content: space-evenly;
   align-items: center;
 
-  border-top: 3px solid orangered;
-  border-bottom: 3px solid orangered;
+  border-top: 0.1875em solid orangered;
+  border-bottom: 0.1875em solid orangered;
 
 
   list-style-type: none;
@@ -101,7 +97,7 @@ main section:nth-child(even) h2 {
 
 footer {
   margin-top: 3em;
-  border-top: 3px solid orangered;
+  border-top: 0.1875em solid orangered;
   color: #FF69B4;
   text-align: center;
 }

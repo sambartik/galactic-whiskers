@@ -19,7 +19,7 @@
 
 #apa-table th,
 td {
-  border: 2px solid #930053;
+  border: 0.125em solid #930053;
   text-align: center;
   padding: 0.65em;
 }

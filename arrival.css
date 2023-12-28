@@ -7,7 +7,14 @@ article p:first-of-type::first-letter {
   font-family: 'Times New Roman', serif;
   color: #E65C00;
   line-height: 1;
-  padding-right: 4px;
+  padding-right: 0.25em;
+}
+
+article .italic-highlight {
+  background-color: yellow;
+  color: black;
+  padding: 0 .25em;
+  font-style: italic;
 }
 
 #not-so-hidden-message {
@@ -15,7 +22,7 @@ article p:first-of-type::first-letter {
 }
 
 #not-so-hidden-message p {
-  border: dashed 5px greenyellow;
+  border: dashed 0.3125em greenyellow;
   padding: 2em;
   margin: 0;
 }
