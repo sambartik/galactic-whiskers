@@ -21,7 +21,12 @@ body::before {
   z-index: -1;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #E65C00;
 }
 
@@ -35,7 +40,8 @@ header {
 }
 
 header #logo {
-  width: 300px;
+  width: 200px;
+  border-radius: 50%;
   align-self: center;
 }
 
@@ -61,21 +67,21 @@ header nav ul {
   border-top: 3px solid orangered;
   border-bottom: 3px solid orangered;
 
-  
+
   list-style-type: none;
   margin: 0;
   padding: 1em 0;
   text-align: center;
 }
 
-header nav ul li > a {
+header nav ul li>a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
 }
 
 
-header nav ul li > a.active-nav {
+header nav ul li>a.active-nav {
   color: aquamarine;
 }
 
@@ -98,4 +104,10 @@ footer {
   border-top: 3px solid orangered;
   color: #FF69B4;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  main section h2 {
+    text-align: center;
+  }
 }

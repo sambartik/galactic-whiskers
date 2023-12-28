@@ -7,16 +7,11 @@
 }
 
 #gallery .gallery-item {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
 }
 
 #gallery .gallery-item span {
-  /* position: absolute;
-  left: 0;
-  bottom: 0;
-  background: black; */
   text-align: center;
   color: green;
   text-transform: uppercase;

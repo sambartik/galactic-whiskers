@@ -3,11 +3,11 @@ article h1 {
 }
 
 article p:first-of-type::first-letter {
-    font-size: 3em;
-    font-family: 'Times New Roman', serif;
-    color: #E65C00;
-    line-height: 1;
-    padding-right: 4px;
+  font-size: 3em;
+  font-family: 'Times New Roman', serif;
+  color: #E65C00;
+  line-height: 1;
+  padding-right: 4px;
 }
 
 #not-so-hidden-message {
